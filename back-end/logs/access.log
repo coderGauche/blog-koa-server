@@ -1,0 +1,153 @@
+[2021-09-02T00:22:23.271] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
+[2021-09-02T00:22:57.353] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
+[2021-09-02T00:23:16.998] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
+[2021-09-02T00:23:31.464] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
+[2021-09-02T00:35:08.069] [INFO] access - ::1 - - "POST /user HTTP/1.1" 200 12 "" "PostmanRuntime/7.26.8"
+[2021-09-02T00:38:33.055] [INFO] access - ::1 - - "POST /user HTTP/1.1" 200 24 "" "PostmanRuntime/7.26.8"
+[2021-09-02T01:13:10.314] [INFO] access - ::1 - - "POST /user HTTP/1.1" 200 24 "" "PostmanRuntime/7.26.8"
+[2021-09-02T01:17:04.597] [INFO] access - undefined
+[2021-09-02T01:17:16.367] [INFO] access - undefined
+[2021-09-02T01:17:40.518] [INFO] access - undefined
+[2021-09-02T01:18:09.640] [INFO] access - undefined
+[2021-09-02T01:18:40.784] [INFO] access - ------------response start------------response result: undefined 
+response all: {"subdomainOffset":2,"proxy":false,"env":"development"} 
+
+[2021-09-02T01:20:10.897] [INFO] access - undefined
+[2021-09-02T01:22:16.024] [INFO] access - ------------response start------------response result: undefined 
+response all: {"subdomainOffset":2,"proxy":false,"env":"development"} 
+
+[2021-09-02T01:22:52.994] [INFO] access - ------------response start------------response result: undefined 
+response all: {"subdomainOffset":2,"proxy":false,"env":"development"} 
+
+[2021-09-02T01:31:57.196] [INFO] access - ------------response start------------response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"1cfea1da-2b11-4f48-b088-4a0d7ea744c2","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 17 
+
+[2021-09-02T01:35:05.740] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : "测试数据库的接口" 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"3cb24b16-1e33-4f57-9d9a-55daebc977ae","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 19 
+
+[2021-09-02T01:36:19.120] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"eff8f962-9947-444b-b1aa-c587b68012c5","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 23 
+
+[2021-09-02T01:39:17.648] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"f57ad80b-7700-47f6-a7f3-ee9268a99716","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 18 
+
+[2021-09-02T01:49:22.087] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"e68a23fa-9342-451d-96f0-4e6d73629d6b","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 15 
+
+[2021-09-02T01:51:26.371] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"6ad6d06a-4f91-4fa9-89e2-9294037a15bb","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 5 
+
+[2021-09-02T01:51:46.642] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"660cde31-cd2e-4479-836b-e736827c7320","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 4 
+
+[2021-09-02T01:53:07.736] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"866545af-f7e4-4632-af31-b69b90c78867","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 11 
+
+[2021-09-02T01:54:56.998] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"254362cf-7bc8-4b08-bf91-e4d188ec5ae1","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 11 
+
+[2021-09-02T01:55:18.887] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"4eb9307d-7591-4978-904a-9d1ea5973bb4","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 6 
+
+[2021-09-02T01:56:28.926] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"6278b46c-ab56-4dd1-b7d2-bfdc238a5a92","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 11 
+
+[2021-09-02T01:56:46.003] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"af111f7e-fa78-4133-b73c-a808d1a31b1f","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 3 
+
+[2021-09-02T01:57:12.105] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"da4f805b-f0e4-4f84-9787-aec2ba317253","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 10 
+
+[2021-09-02T01:57:57.911] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"43370069-0cf5-4606-8312-4ae460dcbc9c","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 8 
+
+[2021-09-02T02:03:16.415] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"de159108-af2b-45ab-a8aa-efd69fcbaba3","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 7 
+
+[2021-09-02T02:12:15.420] [INFO] application - ------------error start------------------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"6ee49dff-6ad6-4cb4-aee7-a78f387e1c3a","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 0 
+error content: "Not Found"
+[2021-09-02T02:15:11.235] [INFO] application - ------------error start------------------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: undefined 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"c9b11a83-8bb8-4c2e-87f2-cc1359f0ded5","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response time: 0 
+error content: "Not Found"

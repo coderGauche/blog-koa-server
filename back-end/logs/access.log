@@ -1,153 +1,180 @@
-[2021-09-02T00:22:23.271] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
-[2021-09-02T00:22:57.353] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
-[2021-09-02T00:23:16.998] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
-[2021-09-02T00:23:31.464] [INFO] access - ::1 - - "POST /user HTTP/1.1" 404 - "" "PostmanRuntime/7.26.8"
-[2021-09-02T00:35:08.069] [INFO] access - ::1 - - "POST /user HTTP/1.1" 200 12 "" "PostmanRuntime/7.26.8"
-[2021-09-02T00:38:33.055] [INFO] access - ::1 - - "POST /user HTTP/1.1" 200 24 "" "PostmanRuntime/7.26.8"
-[2021-09-02T01:13:10.314] [INFO] access - ::1 - - "POST /user HTTP/1.1" 200 24 "" "PostmanRuntime/7.26.8"
-[2021-09-02T01:17:04.597] [INFO] access - undefined
-[2021-09-02T01:17:16.367] [INFO] access - undefined
-[2021-09-02T01:17:40.518] [INFO] access - undefined
-[2021-09-02T01:18:09.640] [INFO] access - undefined
-[2021-09-02T01:18:40.784] [INFO] access - ------------response start------------response result: undefined 
-response all: {"subdomainOffset":2,"proxy":false,"env":"development"} 
-
-[2021-09-02T01:20:10.897] [INFO] access - undefined
-[2021-09-02T01:22:16.024] [INFO] access - ------------response start------------response result: undefined 
-response all: {"subdomainOffset":2,"proxy":false,"env":"development"} 
-
-[2021-09-02T01:22:52.994] [INFO] access - ------------response start------------response result: undefined 
-response all: {"subdomainOffset":2,"proxy":false,"env":"development"} 
-
-[2021-09-02T01:31:57.196] [INFO] access - ------------response start------------response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"1cfea1da-2b11-4f48-b088-4a0d7ea744c2","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 17 
-
-[2021-09-02T01:35:05.740] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : "测试数据库的接口" 
-response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"3cb24b16-1e33-4f57-9d9a-55daebc977ae","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 19 
-
-[2021-09-02T01:36:19.120] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"eff8f962-9947-444b-b1aa-c587b68012c5","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 23 
-
-[2021-09-02T01:39:17.648] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"f57ad80b-7700-47f6-a7f3-ee9268a99716","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 18 
-
-[2021-09-02T01:49:22.087] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"e68a23fa-9342-451d-96f0-4e6d73629d6b","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 15 
-
-[2021-09-02T01:51:26.371] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"6ad6d06a-4f91-4fa9-89e2-9294037a15bb","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 5 
-
-[2021-09-02T01:51:46.642] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"660cde31-cd2e-4479-836b-e736827c7320","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 4 
-
-[2021-09-02T01:53:07.736] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: "测试数据库的接口" 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"866545af-f7e4-4632-af31-b69b90c78867","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 11 
-
-[2021-09-02T01:54:56.998] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"254362cf-7bc8-4b08-bf91-e4d188ec5ae1","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 11 
-
-[2021-09-02T01:55:18.887] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"4eb9307d-7591-4978-904a-9d1ea5973bb4","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 6 
-
-[2021-09-02T01:56:28.926] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"6278b46c-ab56-4dd1-b7d2-bfdc238a5a92","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 11 
-
-[2021-09-02T01:56:46.003] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"af111f7e-fa78-4133-b73c-a808d1a31b1f","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 3 
-
-[2021-09-02T01:57:12.105] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"da4f805b-f0e4-4f84-9787-aec2ba317253","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 10 
-
-[2021-09-02T01:57:57.911] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"43370069-0cf5-4606-8312-4ae460dcbc9c","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 8 
-
-[2021-09-02T02:03:16.415] [INFO] access - ------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"de159108-af2b-45ab-a8aa-efd69fcbaba3","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 7 
-
-[2021-09-02T02:12:15.420] [INFO] application - ------------error start------------------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"6ee49dff-6ad6-4cb4-aee7-a78f387e1c3a","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"62"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 0 
-error content: "Not Found"
-[2021-09-02T02:15:11.235] [INFO] application - ------------error start------------------------response start------------request method: POST 
+[2021-09-04T03:13:40.452] [INFO] access - ------------response start------------request method: POST 
  request url: /user 
 request data: {} 
 request : {"username":"哈哈1","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"c9b11a83-8bb8-4c2e-87f2-cc1359f0ded5","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 0 
-error content: "Not Found"
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:13:40.440Z","createdAt":"2021-09-03T19:13:40.440Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"b945aeba-f826-4a16-9e40-4e2ccc6b7b42","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 12 
+
+[2021-09-04T03:15:15.784] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: "测试数据库的接口" 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"fbe11b74-c619-4778-80ab-41d9badd7032","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"text/plain; charset=utf-8","content-length":"24"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 30 
+
+[2021-09-04T03:20:35.044] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:20:35.029Z","createdAt":"2021-09-03T19:20:35.029Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"8e821f54-c905-491b-857b-8b3605e574ec","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 13 
+
+[2021-09-04T03:28:17.874] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:28:17.857Z","createdAt":"2021-09-03T19:28:17.857Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"b565c232-508a-4218-bf74-c30f76bbe669","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 18 
+
+[2021-09-04T03:29:01.884] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:29:01.870Z","createdAt":"2021-09-03T19:29:01.870Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"787337f1-bb12-4155-bf84-0834d1a0eef1","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 13 
+
+[2021-09-04T03:30:01.392] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:30:01.370Z","createdAt":"2021-09-03T19:30:01.370Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"3253ddc5-4c23-4b4b-aacd-791ca6245d6e","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 23 
+
+[2021-09-04T03:31:20.671] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:31:20.650Z","createdAt":"2021-09-03T19:31:20.650Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"03f06942-dd2d-48e0-abba-c97faa391b89","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 21 
+
+[2021-09-04T03:40:50.044] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:40:50.025Z","createdAt":"2021-09-03T19:40:50.025Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"d854b1de-9f70-49d2-8283-e94790cc2b21","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 20 
+
+[2021-09-04T03:41:44.536] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:41:44.511Z","createdAt":"2021-09-03T19:41:44.511Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"b8589dc1-ca24-4d74-be7a-c2f58299bf3b","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 23 
+
+[2021-09-04T03:43:08.527] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:43:08.501Z","createdAt":"2021-09-03T19:43:08.501Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"cce0277e-8378-4f3f-94b6-504888e59553","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 28 
+
+[2021-09-04T03:44:41.388] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:44:41.375Z","createdAt":"2021-09-03T19:44:41.375Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"14adebe9-b3dd-484d-90ba-af6b7c7a60f6","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 15 
+
+[2021-09-04T03:44:51.083] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:44:51.059Z","createdAt":"2021-09-03T19:44:51.059Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"c0331e3e-848b-4ef5-a6e6-8f5f12687a03","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 25 
+
+[2021-09-04T03:45:06.668] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:45:06.642Z","createdAt":"2021-09-03T19:45:06.642Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"d0797ca4-92be-407c-82ba-35305fe61075","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 29 
+
+[2021-09-04T03:45:51.165] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:45:51.141Z","createdAt":"2021-09-03T19:45:51.141Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"0996a243-32d1-46b1-8610-ddaf99405226","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 22 
+
+[2021-09-04T03:46:10.379] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:46:10.315Z","createdAt":"2021-09-03T19:46:10.315Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"40c72c5a-c7d4-4a1c-aea7-51509f343933","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 61 
+
+[2021-09-04T03:46:23.939] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:46:23.921Z","createdAt":"2021-09-03T19:46:23.921Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"934f2d32-b53b-41bd-aaae-ad972b43fecc","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 18 
+
+[2021-09-04T03:46:36.241] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:46:36.200Z","createdAt":"2021-09-03T19:46:36.200Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"42c6621b-c04f-4884-978c-9ca74c909e55","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 38 
+
+[2021-09-04T03:49:07.811] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:49:07.779Z","createdAt":"2021-09-03T19:49:07.779Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"27721446-47d4-43f6-98b2-c485addc6925","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 33 
+
+[2021-09-04T03:51:20.784] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:51:20.749Z","createdAt":"2021-09-03T19:51:20.749Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"9474e477-60b3-435e-956b-5f42a012fe9a","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 35 
+
+[2021-09-04T03:52:13.831] [INFO] access - ------------response start------------request method: POST 
+ request url: /user 
+request data: {} 
+request : {"username":"哈哈1","email":"225458547@qq.com"} 
+response result: {"name":"SequelizeValidationError","errors":[{"message":"Validation isEmail on email failed","type":"Validation error","path":"email","value":false,"origin":"FUNCTION","instance":{"email":false,"id":null,"username":"哈哈1","avatar_url":"555555","updatedAt":"2021-09-03T19:52:13.801Z","createdAt":"2021-09-03T19:52:13.801Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}],"original":{"validatorName":"isEmail","validatorArgs":[{"allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true,"blacklisted_chars":"","ignore_max_length":false}]}}]} 
+response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"21cc2fce-3f33-4559-acb5-9337d2d7bbeb","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":200,"message":"OK","header":{"content-type":"application/json; charset=utf-8"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 200 
+response time: 30 
+

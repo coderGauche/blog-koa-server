@@ -1,32 +1,18 @@
-[2021-09-02T02:22:12.925] [INFO] error - ------------error start------------------------response start------------request method: POST 
+[2021-09-04T03:11:37.474] [INFO] error - ------------error start------------------------response start------------request method: GET 
  request url: /user 
 request data: {} 
 request : {"username":"哈哈1","email":"225458547@qq.com"} 
 response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"4a7460c9-a4b9-4add-9222-8acc46bbd7e6","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+response all: {"request":{"method":"GET","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"f5510245-f888-4d42-847b-aef5f2ab11f1","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":405,"message":"Method Not Allowed","header":{"allow":"POST"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 405 
 response time: 1 
-error content: "Not Found"
-[2021-09-02T02:22:34.926] [INFO] error - ------------error start------------------------response start------------request method: POST 
+error content: "Method Not Allowed"
+[2021-09-04T03:13:10.141] [INFO] error - ------------error start------------------------response start------------request method: GET 
  request url: /user 
 request data: {} 
 request : {"username":"哈哈1","email":"225458547@qq.com"} 
 response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"43ddc25d-d928-48c1-abe3-f5e8bdc05a59","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 1 
-error content: "Not Found"
-[2021-09-02T02:23:22.965] [INFO] error - ------------error start------------------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈1","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"652eb029-6d73-4f64-95bc-5fa291934056","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 0 
-error content: "Not Found"
-[2021-09-02T02:23:46.039] [INFO] error - ------------error start------------------------response start------------request method: POST 
- request url: /user 
-request data: {} 
-request : {"username":"哈哈1","email":"225458547@qq.com"} 
-response result: undefined 
-response all: {"request":{"method":"POST","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"7d04c7ce-f2c1-46e4-adf6-c27d5409bc47","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":404,"message":"Not Found","header":{}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
-response time: 6 
-error content: "Not Found"
+response all: {"request":{"method":"GET","url":"/user","header":{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","accept":"*/*","cache-control":"no-cache","postman-token":"f0fb9630-91b0-4671-991a-b1caf8b4c9be","host":"localhost:3000","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"63"}},"response":{"status":405,"message":"Method Not Allowed","header":{"allow":"POST"}},"app":{"subdomainOffset":2,"proxy":false,"env":"development"},"originalUrl":"/user","req":"<original node req>","res":"<original node res>","socket":"<original node socket>"} 
+error status: 405 
+response time: 3 
+error content: "Method Not Allowed"

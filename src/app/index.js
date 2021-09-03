@@ -5,7 +5,6 @@ const errhandle = require("./errorHandle");
 require('./db')
 const Logger = require("./log");
 const app = new koa();
-
 app.use(bodyparser());
 app.use(Logger());
 Router(app);

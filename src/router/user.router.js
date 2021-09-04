@@ -12,7 +12,7 @@ const {
     verifyEmail
 } = require('../moddleware/user.moddleware')
 
-userRouter.post('/',create)
-userRouter.get('/email',email)
+userRouter.post('/',verifyUser,create)
+userRouter.post('/email',email)
 
 module.exports = userRouter
